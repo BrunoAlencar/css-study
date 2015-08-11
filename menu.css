@@ -5,7 +5,6 @@
 ul{
     list-style: none;
 }
-
 a {
     text-decoration: none;
 }
@@ -39,6 +38,7 @@ a {
  }
 
 h3{
+    text-align: center;
     color: red;
 }
 #sidebar{
@@ -58,9 +58,18 @@ h3{
     color: #35ffa6;
 }
 #container{
+    height: 634px;
     text-align: justify;
     background: #8fff7b;
     width: 729px;
+}
+#container p{
+    margin: 10px;
+    text-align: justify;
+}
+#container p span{
+    text-align: center;
+    color: #4056ff;
 }
 #footer{
     clear: both;
