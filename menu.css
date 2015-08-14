@@ -67,9 +67,49 @@ h3{
     margin: 10px;
     text-align: justify;
 }
+table {
+    margin: 0px auto;
+    padding: 2px;
+    background: rgba(65, 255, 166, 0.94);
+}
+table tr td,th{
+    padding: 1px;
+    border-bottom: 1px solid black;
+}
+.colright{
+    border-right:1px groove black;
+
+}
+#container table tr:hover {
+    background:rgba(255, 232, 81, 0.94);
+}
 #container p span{
     text-align: center;
     color: #4056ff;
+}
+fieldset    {
+    text-align: center;
+    padding: 5px;
+    width: 450px;
+    margin:10px auto;
+}
+input[type=text]{
+    width: 396px;
+}
+#assunto{
+    width: 300px;
+}
+input[type=submit]{
+    width: 350px;
+    color: #0c006c;
+    background: white;
+    border: 1px solid black;
+    border-radius: 2em;
+
+}
+input[type=submit]:hover{
+    background: rgba(70, 25, 255, 0.94);
+    color: ghostwhite;
 }
 #footer{
     clear: both;
